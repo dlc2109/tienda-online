@@ -1,0 +1,17 @@
+@use "./base/reset";
+@use "./base/variables";
+@use "./base/typography";
+//components
+@use "./components/btn";
+@use "./components/cards";
+//layouts
+@use "./layout/header";
+@use"./style/scss/layout/footer";
+//pages
+@use "./pages/producto";
+@use "./pages/contact";
+@use"./pages/login";
+
+
+
+
