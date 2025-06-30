@@ -1,0 +1,47 @@
+@use "../abstract/variables" as *;
+#ver_productos{
+    width: 100vw;
+     border: 1px solid;
+  .productos__container{
+    display: flex;
+  }
+    .brand__info{
+        width: 25%;
+        height: 300px;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        margin-left: 48px;
+        h2{
+          margin: 4px ;
+        }
+    
+       p{
+      line-height: 1.5;
+      padding: 12px 8px;
+      font-weight: 300;
+       }
+    }
+    .gride-gallery {
+  display: grid;
+  width: 350px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  
+  .img-gride {
+    border-radius: 8px;
+    overflow: hidden;
+       margin: 0; // asegúrate de que no haya margen
+    padding: 0;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}
+}

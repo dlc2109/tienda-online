@@ -1,0 +1,49 @@
+@use "../abstract/variables" as *;
+header {
+  width: 100%;
+  background-color: $color-base;
+   border-bottom: 1px solid grey ;
+   position: sticky;
+   top: 0;
+   z-index: 20;
+   box-shadow: 0 0 7px 0 grey;
+  .nav-link {
+    color: $color-text !important;
+    &:hover,
+    &:focus {
+      color:$color-btn-primary!important;
+    }
+    &.active,
+    &.show {
+      color: rgb(161, 161, 161) !important;
+    }
+  }
+  .logo{
+    width: 120px;
+    height: 100px;
+  }
+  .cart_icon{
+    img{
+        width: 100px;
+        height: 38px;
+    }
+  }
+.btn-outline-success{
+    color:$color-btn-primary !important;
+    border-color: $color-btn-primary !important;
+     &:hover{
+    background-color: white !important;
+  }
+  }
+  
+  .custom-radius {
+  background-color: #000000 !important; // color de fondo (cámbialo al que quieras)
+  border-color: #fd5a1a !important;     
+  text-decoration: none !important;
+  }
+  form{
+   .form-control{
+      color:#fd5a1a !important;
+    }
+  }
+}

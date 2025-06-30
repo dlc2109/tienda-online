@@ -1,0 +1,27 @@
+@use "../abstract/variables" as *;
+body{
+h1 {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 2rem;
+     color: $color-text;
+}
+h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.2rem;
+     color: $color-text;
+}
+h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.8rem;
+     color: $color-text;
+}
+p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    color: $color-text;
+}
+}

@@ -1,0 +1,24 @@
+@use "./abstract/variables" as *;
+@use "./base/reset";
+@use "./base/typography";
+
+
+//components
+@use "./components/btn";
+@use "./components/cards";
+//layouts
+@use "./layout/header";
+@use "./layout/footer";
+//pages
+@use "./pages/home";
+@use "./pages/productos";
+@use "./pages/contacto";
+@use "./pages/login";
+
+
+
+// $ cd "/c/Users/Daniel Lopez/Desktop/tienda online/pagina tienda online"
+
+// Daniel Lopez@DESKTOP-7HH65UP MINGW64 ~/Desktop/tienda online/pagina tienda online (main)  
+// $  sass --watch style/scss/main.scss style/css/style.css
+// Sass is watching for changes. Press Ctrl-C to stop.

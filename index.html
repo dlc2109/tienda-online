@@ -1,64 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tienda online </title>
-    <link rel="stylesheet" href="style/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tienda online </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
 </head>
+
 <body>
-<header>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <img src="#" alt="logo">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Registro</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Collection
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Coleccion 2025</a></li>
-            <li><a class="dropdown-item" href="#">Ofertas</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Oversize</a></li>
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img class="logo" src="images/logo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active navbar-ligh" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Collection
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Coleccion 2025</a></li>
+                <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Oversize</a></li>
+              </ul>
+            </li>
+            <a class="cart_icon" href="#">
+              <img src="images/icon-cart.svg" alt="carrito_icon">
           </ul>
-        </li>
-        <a class="navbar-brand me-auto" href="../index.html">
-          <img src="# " alt="carrito_icon">
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 search" type="search" placeholder="Que buscas?" aria-label="Search" />
+            <button class="btn btn-outline-success  " type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- banner -->
+  <main>
+    <section id="banner">
+      <div class="banner-container">
+        <img src="images/banner.png" alt="banner" class="banner-img">
+
+        <div class="log-container">
+
+          <img class="logo-banner" src="images/logo.png" alt="logo">
+          <p class="banner-content">"La mejor ropa del mercado urbano, elegancia para todos"</p>
+          <a class="productos__btn" href="#">Nuestros productos</a>
+          <a class="log__btn" href="#">Log in</a>
+        </div>
+      </div>
+      </div>
+  </main>
+  </section>
+  <section id="card__products">
+    <h1>
+      Nueva colecion
+    </h1>
+    <div class="wrapper-container " id="container-padre">
+<!-- card1 -->
+      <div class="img__card1">
+        <img class="img1" src="images/card1.png" alt="foto">
+         <div class="card__content">
+        <h2>franela negra</h2>
+        <p>precio $25</p>
+        <a class="btn__product" href="/pages/producto.html">Ver producto</a>
+        </div>
+      </div>
+<!-- card2 -->
+      <div class="img__card2">
+        <img class="img2" src="images/card2.png" alt="foto">
+        <div class="card__content">
+        <h2>Saco marron</h2>
+        <p>precio $55</p>
+        <a class="btn__product" href="/pages/producto.html">Ver producto</a>
+        </div>
+      </div>
+<!-- card3 -->
+      <div class="img__card3">
+        <img class="img3" src="images/card3.png" alt="foto">
+        <div class="card__content">
+        <h2>Chaqueta old school</h2>
+        <p>precio $75</p>
+        <a class="btn__product" href="/pages/producto.html">Ver producto</a>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-</header>
-<div>
-    <img src="images/cardwing.webp" alt="">
-    <p>hola como estas</p>
-</div>
+  </section>
+ 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
