@@ -40,12 +40,12 @@
   }
 .carrito__btn{
     display: flex;
-    flex-direction: column;
+    align-items: center;
      width: 250px;
     height: 50px;
     background-color:$color-btn-primary;
     padding: 1rem 1.2rem;
-    border-radius: 1px;
+    border-radius: 3px;
     border: 1px solid $color-btn-primary !important;
     box-shadow: 0 0 8px 0 rgb(58, 58, 58);
         &:hover{
@@ -56,4 +56,26 @@
   a{
     text-align: center;
     justify-content: center;
+    color: white;
   }
+  .icon-btn{
+     
+     width: 350px;
+    height: 50px;
+    background-color:#C4C4C4;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    border: solid 1px  rgb(151, 151, 151);
+
+  
+    //     &:hover{
+    //     background-color: #A1BBD4;
+    //     border-color: rgb(173, 173, 173) !important;
+    // }
+  }
+  a{
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+  

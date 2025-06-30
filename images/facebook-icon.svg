@@ -1,0 +1,28 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="29" height="29" fill="#2C2C2C"/>
+<g id="#registro" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-624 -440)" fill="#090707"/>
+<g id="container-log">
+<rect width="1440" height="924" transform="translate(-624 -340)" fill="#090707"/>
+<g id="log-in-info">
+<g id="log-info">
+<rect id="Rectangle 16" x="-99.5" y="-46.8" width="391" height="436" rx="5" fill="#D9D9D9"/>
+<g id="Frame 303">
+<g id="btn-facebook">
+<rect x="-33.0312" y="-9.20003" width="263" height="48" rx="24" fill="#C4C4C4"/>
+<g id="facebook-icon">
+<path id="bg" d="M14.4688 28.8C21.973 28.8 28.0563 22.532 28.0563 14.8C28.0563 7.06799 21.973 0.799973 14.4688 0.799973C6.96467 0.799973 0.881348 7.06799 0.881348 14.8C0.881348 22.532 6.96467 28.8 14.4688 28.8Z" fill="#0C82EE"/>
+<path id="f" d="M19.5291 19.082L20.1327 15.13H16.3564V12.567C16.3564 11.486 16.8834 10.431 18.5741 10.431H20.2919V7.06697C20.2919 7.06697 18.7342 6.79997 17.2444 6.79997C14.1339 6.79997 12.1026 8.69297 12.1026 12.118V15.13H8.64551V19.082H12.1026V28.634C12.7965 28.744 13.5059 28.8 14.229 28.8C14.953 28.8 15.6625 28.744 16.3564 28.634V19.082H19.5291Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-624 -440)"/>
+</clipPath>
+</defs>
+</svg>

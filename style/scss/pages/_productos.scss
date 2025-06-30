@@ -1,19 +1,23 @@
 @use "../abstract/variables" as *;
 #ver_productos{
     width: 100vw;
-     border: 1px solid;
+
   .productos__container{
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 120px;
   }
     .brand__info{
         width: 25%;
         height: 300px;
-        border: 1px solid;
+    
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 90px;
         margin-left: 48px;
         h2{
           margin: 4px ;
@@ -23,20 +27,23 @@
       line-height: 1.5;
       padding: 12px 8px;
       font-weight: 300;
+      overflow: hidden;
        }
     }
     .gride-gallery {
   display: grid;
-  width: 350px;
+
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+
   gap: 10px;
   
   .img-gride {
     border-radius: 8px;
     overflow: hidden;
-       margin: 0; // asegúrate de que no haya margen
+       margin: 0; 
     padding: 0;
+   
     img {
       width: 100%;
       height: auto;
@@ -44,4 +51,27 @@
     }
   }
 }
+.cart-info{
+display: flex;
+align-items: center;
+  // padding-left: 350px;
+  margin: 0 48px;
+}
+.agregar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+}
+span{
+color: white;
+}
+.selector{
+padding: 8px 0;
+}
+.carrito__btn{
+
+  margin-top: 22px;
+}
+
 }
