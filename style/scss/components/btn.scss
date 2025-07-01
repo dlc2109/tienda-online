@@ -14,15 +14,39 @@
         background-color: $color-btn-primary;
         border-color: white;
     }
+  
   }
   a{
     text-align: center;
     justify-content: center;
   }
-  .log__btn{
-    display: flex;
+    .log__btn{
+      display: flex;
     flex-direction: column;
-     width: 250px;
+    width: 250px;
+    height: 50px;
+    background-color:$color-btn-primary;
+    padding: 1rem 1.2rem;
+    border-radius: 1px;
+    border: 1px solid grey !important;
+    margin-bottom: 32px;
+    box-shadow: 0 0 8px 0 rgb(58, 58, 58);
+       &:hover{
+        background-color: #A5BED7;
+        border:solid 1px rgb(217, 217, 217) !important;
+
+    }
+  
+  }
+  a{
+    text-align: center;
+    justify-content: center;
+  }
+    
+  
+  .log__btn2{
+    
+     width: 350px;
     height: 50px;
     background-color:$color-btn-primary;
     padding: 1rem 1.2rem;
@@ -59,19 +83,24 @@
     color: white;
   }
   .icon-btn{
-     
+     text-align: center;
      width: 350px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+     gap: 12px;
     background-color:#C4C4C4;
     padding: 1rem 1.2rem;
     border-radius: 10px;
     border: solid 1px  rgb(151, 151, 151);
-
-  
-    //     &:hover{
-    //     background-color: #A1BBD4;
-    //     border-color: rgb(173, 173, 173) !important;
-    // }
+    cursor: pointer;
+    
+        &:hover{
+        background-color: #A1BBD4;
+        border-color: rgb(160, 160, 160) !important;
+    }
   }
   a{
     text-align: center;

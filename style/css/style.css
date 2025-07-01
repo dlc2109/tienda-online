@@ -68,10 +68,30 @@ a {
   background-color: #FD5A1A;
   padding: 1rem 1.2rem;
   border-radius: 1px;
-  border: 1px solid #FD5A1A !important;
+  border: 1px solid grey !important;
+  margin-bottom: 32px;
   box-shadow: 0 0 8px 0 rgb(58, 58, 58);
 }
 .log__btn:hover {
+  background-color: #A5BED7;
+  border: solid 1px rgb(217, 217, 217) !important;
+}
+
+a {
+  text-align: center;
+  justify-content: center;
+}
+
+.log__btn2 {
+  width: 350px;
+  height: 50px;
+  background-color: #FD5A1A;
+  padding: 1rem 1.2rem;
+  border-radius: 1px;
+  border: 1px solid #FD5A1A !important;
+  box-shadow: 0 0 8px 0 rgb(58, 58, 58);
+}
+.log__btn2:hover {
   background-color: #A1BBD4;
   border-color: rgb(173, 173, 173) !important;
 }
@@ -104,12 +124,23 @@ a {
 }
 
 .icon-btn {
+  text-align: center;
   width: 350px;
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 12px;
   background-color: #C4C4C4;
   padding: 1rem 1.2rem;
   border-radius: 10px;
   border: solid 1px rgb(151, 151, 151);
+  cursor: pointer;
+}
+.icon-btn:hover {
+  background-color: #A1BBD4;
+  border-color: rgb(160, 160, 160) !important;
 }
 
 a {
@@ -136,6 +167,8 @@ a {
   box-shadow: 2px 6px 5px -1px rgba(91, 91, 91, 0.75);
   -webkit-box-shadow: 2px 6px 5px -1px rgba(91, 91, 91, 0.75);
   -moz-box-shadow: 2px 6px 5px -1px rgba(91, 91, 91, 0.75);
+  background-color: aliceblue;
+  cursor: pointer;
 }
 #card__products .img__card1 .img1,
 #card__products .img__card1 .img2,
@@ -147,6 +180,11 @@ a {
 #card__products .img__card3 .img2,
 #card__products .img__card3 .img3 {
   border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
 }
 #card__products .img__card1 .card__content,
 #card__products .img__card2 .card__content,
@@ -165,7 +203,8 @@ a {
   right: 0;
   margin-inline: auto;
   opacity: 0;
-  transition: opacity 0.3s, bottom 0.3s;
+  transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1), bottom 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, bottom;
 }
 #card__products .img__card1 .card__content .btn__product,
 #card__products .img__card2 .card__content .btn__product,
@@ -181,6 +220,15 @@ a {
 #card__products .img__card2 .card__content .btn__product:hover,
 #card__products .img__card3 .card__content .btn__product:hover {
   opacity: 1;
+}
+#card__products .img__card1:hover .img1, #card__products .img__card1:hover .img2, #card__products .img__card1:hover .img3,
+#card__products .img__card2:hover .img1,
+#card__products .img__card2:hover .img2,
+#card__products .img__card2:hover .img3,
+#card__products .img__card3:hover .img1,
+#card__products .img__card3:hover .img2,
+#card__products .img__card3:hover .img3 {
+  transform: scale(1.08) translateY(-15px);
 }
 #card__products .img__card1:hover .card__content,
 #card__products .img__card2:hover .card__content,
@@ -329,6 +377,11 @@ header form .form-control {
   overflow: hidden;
   margin: 0;
   padding: 0;
+  transform: translate(y -5px);
+  transition: transform 0.3s ease;
+}
+#ver_productos .gride-gallery .img-gride:hover {
+  transform: translateY(-5px);
 }
 #ver_productos .gride-gallery .img-gride img {
   width: 100%;
@@ -360,7 +413,6 @@ header form .form-control {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 #log-in .log-tittle {
@@ -368,7 +420,7 @@ header form .form-control {
   flex-direction: column;
   align-items: center;
   padding: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 #log-in h1 {
   font-weight: 600;
@@ -378,10 +430,10 @@ header form .form-control {
 }
 #log-in .log-in-container-parent {
   width: 40%;
-  height: 443px;
+  height: 500px;
   background-color: rgb(221, 221, 221);
-  margin-bottom: 100px;
   border-radius: 8px;
+  overflow: hidden;
 }
 #log-in .btn-container {
   display: flex;
@@ -398,8 +450,11 @@ header form .form-control {
   margin-top: 24px;
 }
 #log-in .devider p {
+  width: 350px;
+  text-align: center;
   color: black;
   margin: 12px;
+  border-bottom: solid 1px black;
 }
 #log-in .inputs {
   width: 350px;
@@ -407,6 +462,16 @@ header form .form-control {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+#log-in .inputs input {
+  height: 50px;
+}
+#log-in .inputs input::placeholder {
+  color: rgb(93, 93, 93);
+}
+#log-in .inputs label {
+  font-weight: 500;
+  color: rgb(28, 28, 28);
 }
 #log-in .email {
   padding: 8px;
@@ -417,6 +482,12 @@ header form .form-control {
   border-radius: 8px;
   padding: 8px;
   border: solid 1px rgb(81, 81, 81);
+}
+#log-in .contrasena-link {
+  color: #0C82EE;
+}
+#log-in a {
+  margin-bottom: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -43,6 +43,11 @@
     overflow: hidden;
        margin: 0; 
     padding: 0;
+    transform: translate(y -5px);
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+    }
    
     img {
       width: 100%;

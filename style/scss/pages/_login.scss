@@ -4,14 +4,14 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
       .log-tittle{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
    }
    h1{
     font-weight: 600;
@@ -22,11 +22,11 @@
  }
 .log-in-container-parent{
     width: 40%;
-    height: 443px;
+    height: 500px;
     background-color: rgb(221, 221, 221);
-     margin-bottom: 100px;
+   
      border-radius: 8px;
- 
+     overflow: hidden;
 }
 .btn-container{
     display: flex;
@@ -45,8 +45,12 @@
 }
 .devider{
     p{
+        width: 350px;
+        text-align: center;
         color: black;
         margin: 12px ;
+        border-bottom: solid 1px black;
+       
     }
 }
 .inputs{
@@ -55,8 +59,18 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
- 
-   
+    input{
+        height: 50px;
+       
+       &::placeholder {
+      color: rgb(93, 93, 93); 
+    
+    }
+    }
+    label{
+        font-weight: 500;
+        color: rgb(28, 28, 28);
+    }
 }
 .email{
  padding: 8px;
@@ -68,6 +82,11 @@
  padding: 8px;
  border: solid 1px rgb(81, 81, 81);
 }
+.contrasena-link{
+    color:$color-link;
+    }
+    a{
+        margin-bottom: 12px;
+    }
 
 }
-
